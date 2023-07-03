@@ -110,8 +110,9 @@ if (EXISTS ${FT_DIR})
 else()
   FetchContent_Declare(
     repo-ft
-    GIT_REPOSITORY https://github.com/void-main/FasterTransformer.git
-    GIT_TAG main
+    # GIT_REPOSITORY https://github.com/void-main/FasterTransformer.git
+    GIT_REPOSITORY https://github.com/Lzhang-hub/FasterTransformer.git
+    GIT_TAG integrate-lm-eval
     GIT_SHALLOW ON
   )
 endif()
